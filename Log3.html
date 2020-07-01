@@ -1,0 +1,197 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <title>Log in</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #008080;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: blue;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color:#585858;
+}
+
+.active {
+    background-color: #008080;
+}
+p.head{color:#BDB76B;
+        text-align:center;
+       font-style:oblique;
+         font-family:"Gabriola";
+        font-size:65px;
+         animated slideInDown;}
+p.para{ font-size:20px;
+          font-family:"Comic Sans MS";
+          color:#273746;}
+p.head2{ font-size:45px;
+            text-align:center;
+            font-color:#EB984E;
+            font-style:oblique;
+            font-family:gabriola;}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #ddd;}
+#customers tr:nth-child(odd){background-color: #B2BABB;}
+
+#customers tr:hover {background-color: #D1F2EB;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2980B9;
+    color: white;
+}
+a:link {
+    color: hotpink;
+    text-decoration:none;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: blue;
+}
+body{background-color:#008080;}
+body {font-family: Arial;}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+img:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+              <hr class="my-4">
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+            </form>
+  <div class="icon-bar">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+<a href="https://www.google.com/gmail/"><i class="fa fa-google"></i></a>
+<a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+</div></div></div> </div> </div>
+      </div>
+</body>
+</html>

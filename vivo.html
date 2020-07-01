@@ -1,0 +1,144 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>
+Vivo
+</title>
+<style>
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #D2B48C;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: maroon;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #585858;
+}
+
+.active {
+    background-color: #D2B48C;
+}
+
+p.para{ font-size:20px;
+         font-family:"MS Sans Serif";
+         color:#2C3E50;}
+p.head{font-size:29px;
+        font-family:gabriola;
+        color:#8B4513;
+        text-decoration:underline;}
+.td{font-family:"comic Sans MS";
+      color:red;
+      font-size:40;}
+      
+ body{background-color:#D2B48C;}  
+</style>
+</head>
+<body>
+<p class=head>Vivo V7 Plus</p>
+<a href="https://www.gadgetsnow.com/mobile-phones/Vivo-V7-Plus">
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+<img src="7.webp" alt="image not available" style="width:500px;height:300px;">
+  </div>
+  <div class="back face center">
+<img src="7(2).webp" alt="image not available" style="width:500px;height:300px;">
+  </div>
+</div>
+</div>
+</a>
+<br>
+<br>
+<br>
+<br>
+<p class=head>Vivo Z1 Pro</p>
+<a href="https://www.digit.in/mobile-phones/vivo-z1-pro-price-183825.html">
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+<img src="z1.jpg" alt="image not available" style="width:500px;height:300px;">
+</div>
+  <div class="back face center">
+   <img src="z1(2).jpg" alt="image not available" style="width:500px;height:300px;">
+  </div>
+</div>
+</div>
+ </a>
+<br>
+<br>
+<p class=head>Vivo V19</p>
+<a href="https://gadgets.ndtv.com/vivo-v19-price-in-india-91764">
+<div id="f1_container">
+<div id="f1_card" class="shadow">
+  <div class="front face">
+    <img src="19.jpg" alt="image not available" style="width:500px;height:300px;">
+  </div>
+  <div class="back face center">
+ <img src="19(2).webp" alt="image not available" style="width:500px;height:300px;">
+  </div>
+</div>
+</div>
+ </a>
+<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "49px";
+    x.style.width = "49px";
+}
+</script>
+</body>
+</html>
